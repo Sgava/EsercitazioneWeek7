@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EsercitazioneWeek7.CORE.Entities
 {
-    internal class Menu
+    public class Menu
     {
+        public int Id { get; set; }
+        public string Name { get; set; }    
+        public ICollection<Piatto>? Piatti { get; set; }
     }
 }

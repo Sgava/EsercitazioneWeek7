@@ -21,5 +21,7 @@ namespace EsercitazioneWeek7.CORE.Entities
         public string Descrizione { get; set; }
         public Tipologia tipologia { get; set; }
         public decimal Prezzo { get; set; }
+ 
+        public Menu? Menu { get; set; }
     }
 }
