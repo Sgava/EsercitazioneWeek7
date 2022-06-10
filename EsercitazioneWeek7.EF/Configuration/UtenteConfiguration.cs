@@ -15,6 +15,10 @@ namespace EsercitazioneWeek7.EF.Configuration
         {
             builder.ToTable("Utente");
             builder.HasKey(t => t.Id);
+            builder.HasIndex(x => x.Username).IsUnique();
+            builder.Property(x => x.Password).IsRequired();
+            builder.Property(x => x.Username).IsRequired();
+            builder.Property(x => x.Ruolo).IsRequired();
         }
     }
 }

@@ -15,6 +15,7 @@ namespace EsercitazioneWeek7.EF.Configuration
         {
             builder.ToTable("Piatto");
             builder.HasKey(t => t.Id);
+            builder.HasIndex(p => p.Nome).IsUnique();
         }
     }
 }

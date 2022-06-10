@@ -15,6 +15,7 @@ namespace EsercitazioneWeek7.EF.Configuration
         {
             builder.ToTable("Menu");
             builder.HasKey(x => x.Id);
+            builder.HasIndex(m =>m.Nome ).IsUnique();
 
 
             builder.HasMany(p => p.Piatti).WithOne(p => p.Menu).HasForeignKey(p => p.MenuId);

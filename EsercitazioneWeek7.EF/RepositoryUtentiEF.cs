@@ -12,7 +12,12 @@ namespace EsercitazioneWeek7.EF
     {
         public Utente Add(Utente item)
         {
-            throw new NotImplementedException();
+            using (var ctx = new MasterContext())
+            {
+                ctx.Utenti.Add(item);
+                ctx.SaveChanges();
+            }
+            return item;
         }
 
         public bool Delete(Utente item)

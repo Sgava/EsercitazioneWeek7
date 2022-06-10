@@ -9,5 +9,6 @@ namespace EsercitazioneWeek7.CORE.Interfaces
 {
     public interface IRepositoryMenu : IRepository<Menu>
     {
+        Menu GetById(int id);
     }
 }

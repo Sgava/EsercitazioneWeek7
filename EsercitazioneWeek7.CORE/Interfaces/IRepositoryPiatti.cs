@@ -9,5 +9,6 @@ namespace EsercitazioneWeek7.CORE.Interfaces
 {
     public interface IRepositoryPiatti : IRepository<Piatto>
     {
+       Piatto GetById(int id);
     }
 }

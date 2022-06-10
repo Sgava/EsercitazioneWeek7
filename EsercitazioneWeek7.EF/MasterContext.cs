@@ -1,4 +1,5 @@
 ﻿using EsercitazioneWeek7.CORE.Entities;
+using EsercitazioneWeek7.EF.Configuration;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -23,7 +24,9 @@ namespace EsercitazioneWeek7.EF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            modelBuilder.ApplyConfiguration(new PiattoConfiguration());
+            modelBuilder.ApplyConfiguration(new MenuConfiguration());
+            modelBuilder.ApplyConfiguration(new UtenteConfiguration()); 
         }
     }
 }

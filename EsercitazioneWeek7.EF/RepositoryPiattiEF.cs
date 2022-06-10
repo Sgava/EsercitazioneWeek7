@@ -12,22 +12,49 @@ namespace EsercitazioneWeek7.EF
     {
         public Piatto Add(Piatto item)
         {
-            throw new NotImplementedException();
+            using (var ctx = new MasterContext())
+            {
+                ctx.Piatti.Add(item);
+                ctx.SaveChanges();
+            }
+            return item;
         }
 
         public bool Delete(Piatto item)
         {
-            throw new NotImplementedException();
+            using (var ctx = new MasterContext())
+            {
+                ctx.Piatti.Add(item);
+                ctx.SaveChanges();
+            }
+            return true;
         }
 
         public List<Piatto> GetAll()
         {
-            throw new NotImplementedException();
+            using (var ctx = new MasterContext())
+            {
+                return ctx.Piatti.ToList();
+
+            }
+        }
+
+        public Piatto GetById(int id)
+        {
+            using (var ctx = new MasterContext())
+            {
+                return ctx.Piatti.FirstOrDefault(p => p.Id == id);
+            }
         }
 
         public Piatto Update(Piatto item)
         {
-            throw new NotImplementedException();
+            using (var ctx = new MasterContext())
+            {
+                ctx.Piatti.Update(item);
+                ctx.SaveChanges();
+            }
+            return item;
         }
     }
 }
