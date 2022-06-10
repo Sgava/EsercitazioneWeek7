@@ -44,7 +44,7 @@ namespace EsercitazioneWeek7.EF
         {
             using (var ctx = new MasterContext())
             {
-                return ctx.Menu.Include(m => m.Piatti).FirstOrDefault(c => c.CorsoCodice == codice);
+                return ctx.Menu.Include(m => m.Piatti).FirstOrDefault(m =>m.Id  == id);
             }
         }
 

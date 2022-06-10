@@ -16,6 +16,7 @@ namespace EsercitazioneWeek7.EF.Configuration
             builder.ToTable("Piatto");
             builder.HasKey(t => t.Id);
             builder.HasIndex(p => p.Nome).IsUnique();
+            builder.Property(p => p.Prezzo).HasColumnType("decimal(9,2)");
         }
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\EsercitazioneWeek7.EF.csproj.AssemblyReference.cache
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\EsercitazioneWeek7.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\EsercitazioneWeek7.EF.AssemblyInfoInputs.cache
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\EsercitazioneWeek7.EF.AssemblyInfo.cs
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\EsercitazioneWeek7.EF.csproj.CoreCompileInputs.cache
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\bin\Debug\net6.0\EsercitazioneWeek7.EF.deps.json
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\bin\Debug\net6.0\EsercitazioneWeek7.EF.runtimeconfig.json
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\bin\Debug\net6.0\EsercitazioneWeek7.EF.dll
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\bin\Debug\net6.0\EsercitazioneWeek7.EF.pdb
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\bin\Debug\net6.0\EsercitazioneWeek7.CORE.dll
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\bin\Debug\net6.0\EsercitazioneWeek7.CORE.pdb
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\EsercitazioneWeek7.EF.csproj.CopyComplete
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\EsercitazioneWeek7.EF.dll
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\refint\EsercitazioneWeek7.EF.dll
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\EsercitazioneWeek7.EF.pdb
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\EsercitazioneWeek7.EF.genruntimeconfig.cache
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.EF\obj\Debug\net6.0\ref\EsercitazioneWeek7.EF.dll
