@@ -1,7 +1,16 @@
+using EsercitazioneWeek7.CORE.BusinessLayer;
+using EsercitazioneWeek7.CORE.Interfaces;
+using EsercitazioneWeek7.EF;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IBusinessLayer, MainBusinessLayer>();
+
+
+builder.Services.AddScoped<IRepositoryPiatti, RepositoryPiattiEF>();
+
 
 var app = builder.Build();
 

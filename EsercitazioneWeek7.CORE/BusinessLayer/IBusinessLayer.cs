@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EsercitazioneWeek7.CORE.BusinessLayer
 {
-    internal interface IBusinessLayer
+    public interface IBusinessLayer
     {
         List<Piatto> GetAllPiatti();
 

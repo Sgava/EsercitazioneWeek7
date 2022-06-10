@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EsercitazioneWeek7.CORE.BusinessLayer
 {
-    internal class MainBusinessLayer : IBusinessLayer
+    public class MainBusinessLayer : IBusinessLayer
     {
         private readonly IRepositoryPiatti piattiRepo;
         private readonly IRepositoryMenu menuRepo;
