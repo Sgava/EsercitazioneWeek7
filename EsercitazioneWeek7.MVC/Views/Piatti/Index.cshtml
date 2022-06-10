@@ -1,0 +1,48 @@
+﻿@model ICollection<PiattoViewModel> 
+
+<h1>Lista Piatti</h1>
+<div>
+    <table class="table table-sm table-dark table-striped">
+        <thead>
+            <tr>  
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Descrizione</th>
+                <th>Prezzo</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Descrizione</td>
+                    <td>@item.Prezzo</td>
+                    <td>
+                        
+                        @if (User.IsInRole("Admnistrator"))
+                        {
+                            <a class="btn btn-light btn-outline-dark rounded-0" asp-controller="Studenti" asp-action="Edit" asp-route-id="@item.Id">Modifica piatto</a>
+                            <a class="btn btn-outline-danger rounded-0" asp-controller="Studenti" asp-action="Delete" asp-route-id="@item.Id">Elimina piatto</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>
+             @if (User.IsInRole("Admnistrator")){
+            <a type="button" class="btn btn-light btn-outline-dark rounded-0" asp-controller="Studenti" asp-action="Create">Inserisci nuovo piatto</a>
+             }        
+        </th>
+
+        </tfoot>
+    </table>
+</div>
