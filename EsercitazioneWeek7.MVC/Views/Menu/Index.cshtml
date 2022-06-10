@@ -21,9 +21,9 @@
 
                         @if (User.IsInRole("Administrator"))
                         {
-                            <a class="btn btn-light btn-outline-dark rounded-0" asp-controller="Menu" asp-action="Details" asp-route-id="@item.Id">Dettagli Menú/a>
+                            <a class="btn btn-light btn-outline-dark rounded-0" asp-controller="Menu" asp-action="Details" asp-route-id="@item.Id">Dettagli Menú</a>
                                 <a class="btn btn-outline-danger rounded-0" asp-controller="Menu" asp-action="Delete" asp-route-id="@item.Id">Elimina Menú</a>
-                                }
+                        }
                         </td>
                     </tr>
                         }
