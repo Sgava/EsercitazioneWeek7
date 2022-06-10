@@ -1,5 +1,6 @@
 ﻿using EsercitazioneWeek7.CORE.Entities;
 using EsercitazioneWeek7.CORE.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,7 +35,7 @@ namespace EsercitazioneWeek7.EF
         {
             using (var ctx = new MasterContext())
             {
-                return ctx.Piatti.ToList();
+                return ctx.Piatti.Include(p =>p.Menu).ToList();
 
             }
         }
@@ -43,7 +44,7 @@ namespace EsercitazioneWeek7.EF
         {
             using (var ctx = new MasterContext())
             {
-                return ctx.Piatti.FirstOrDefault(p => p.Id == id);
+                return ctx.Piatti.Include(p => p.Menu).FirstOrDefault(p => p.Id == id);
             }
         }
 
