@@ -1,40 +1,58 @@
 ﻿@model PiattoViewModel
 
-@if (ViewBag.ReadOnly == false)
+@if (ViewBag.CreationMode == false)
 {
     <div class="mb-2 ">
 
         <div class="form-group">
             <label asp-for="tipologia"></label>
-            <input asp-for="tipologia" class="form-control"  />
+            <input asp-for="tipologia" class="form-control" readonly />
             <span asp-validation-for="tipologia" class="text-danger"></span>
         </div>
 
         <div class="form-group">
             <label asp-for="Nome"></label>
-            <input asp-for="Nome" class="form-control"  />
+            <input asp-for="Nome" class="form-control" readonly />
             <span asp-validation-for="Nome" class="text-danger"></span>
         </div>
 
         <div class="form-group">
             <label asp-for="Prezzo"></label>
-            <input asp-for="Prezzo" class="form-control"  />
+            <input asp-for="Prezzo" class="form-control" readonly />
             <span asp-validation-for="Prezzo" class="text-danger"></span>
         </div>
 
-       @* <div class="form-group">
-            <label asp-for="Descrizione"></label>
-            <input asp-for="Descrizione" class="form-control"  />
-            <span asp-validation-for="Descrizione" class="text-danger"></span>
-        </div>
-        
+        @*
 
-        <div class="form-group">
-            <label asp-for="MenuId"></label>
-            <input asp-for="MenuId" class="form-control" />
-            <span asp-validation-for="MenuId" class="text-danger"></span>
-        </div>
-        *@
 
+    <div class="form-group">
+    <label asp-for="MenuId"></label>
+    <input asp-for="MenuId" class="form-control" />
+    <span asp-validation-for="MenuId" class="text-danger"></span>
+    </div>
+    *@
+
+    </div>
+}
+else
+{
+    <div class="form-group">
+        <label asp-for="tipologia"></label>
+        <select asp-for="tipologia" asp-items="@ViewBag.Tipologia" class="form-control">
+            <option value="">scegli un'opzione</option>
+        </select>
+        <span asp-validation-for="tipologia" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Nome"></label>
+        <input asp-for="Nome" class="form-control"  />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Prezzo"></label>
+        <input asp-for="Prezzo" class="form-control"  />
+        <span asp-validation-for="Prezzo" class="text-danger"></span>
     </div>
 }

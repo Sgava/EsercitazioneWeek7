@@ -35,10 +35,9 @@
         <th></th>
         <th></th>
         <th></th>
-        <th></th>
         <th>
-             @if (User.IsInRole("Admnistrator")){
-            <a type="button" class="btn btn-light btn-outline-dark rounded-0" asp-controller="Studenti" asp-action="Create">Inserisci nuovo piatto</a>
+             @if (User.IsInRole("Administrator")){
+            <a type="button" class="btn btn-light btn-outline-dark rounded-0" asp-controller="Piatti" asp-action="Create">Inserisci nuovo piatto</a>
              }        
         </th>
 

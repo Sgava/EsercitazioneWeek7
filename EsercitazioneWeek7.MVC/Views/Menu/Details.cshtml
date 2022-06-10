@@ -1,0 +1,36 @@
+﻿@model MenuViewModel
+
+<h1>Lista Menú</h1>
+<div>
+    <table class="table table-sm table-dark table-striped">
+        <thead>
+            <tr>  
+                <th>Piatto</th>
+                <th>Prezzo</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model.Piatti)
+            {
+                <tr>
+                    <td>@item.Nome</td>                    
+                    <td>@item.Prezzo</td>
+                </tr>
+            }
+            <tr>@Model.Piatti.Sum(x => x.Prezzo)</tr>
+        </tbody>
+        <tfoot>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>
+             
+            <a type="button" class="btn btn-light btn-outline-dark rounded-0" asp-controller="Menu" asp-action="Index">indietro</a>
+                     
+        </th>
+
+        </tfoot>
+    </table>
+</div>

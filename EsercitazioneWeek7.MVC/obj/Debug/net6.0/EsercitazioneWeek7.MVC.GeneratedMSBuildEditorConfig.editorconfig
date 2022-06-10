@@ -23,12 +23,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/gianluca.deias/source/repos/EsercitazioneWeek7/EsercitazioneWeek7.MVC/Views/Menu/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/gianluca.deias/source/repos/EsercitazioneWeek7/EsercitazioneWeek7.MVC/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gianluca.deias/source/repos/EsercitazioneWeek7/EsercitazioneWeek7.MVC/Views/Piatti/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlhdHRpXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gianluca.deias/source/repos/EsercitazioneWeek7/EsercitazioneWeek7.MVC/Views/Piatti/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlhdHRpXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gianluca.deias/source/repos/EsercitazioneWeek7/EsercitazioneWeek7.MVC/Views/Piatti/Index.cshtml]

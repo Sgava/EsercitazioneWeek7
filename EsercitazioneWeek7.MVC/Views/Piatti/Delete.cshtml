@@ -1,10 +1,10 @@
 ﻿@model PiattoViewModel
 @{
 
-    ViewBag.CreationMode = true;
+    ViewBag.CreationMode = false;
 }
 
-<h1>Inserisci il nuovo piatto</h1>
+<h1>Vuoi Eliminare questo Piatto</h1>
 
 <form class="bg-dark m-3 rounded" method="post">
 
@@ -17,8 +17,7 @@
     </div>
 
     <div class="text-center my-3">
-        <input type="submit" value="Inserisci" class="btn btn-light btn-outline-dark rounded text-center mb-2" />
-        <input type="reset" value="reset" class="btn btn-light btn-outline-dark rounded text-center mb-2" />
+        <input type="submit" value="Elimina" class="btn btn-light btn-outline-danger rounded text-center mb-2" />        
         <a class="btn btn-light btn-outline-dark rounded mb-2" asp-controller="Piatti" asp-action="Index">Indietro</a>
     </div>
 </form>
