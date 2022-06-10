@@ -1,0 +1,12 @@
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\bin\Debug\net6.0\EsercitazioneWeek7.CORE.deps.json
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\bin\Debug\net6.0\EsercitazioneWeek7.CORE.dll
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\bin\Debug\net6.0\EsercitazioneWeek7.CORE.pdb
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\obj\Debug\net6.0\EsercitazioneWeek7.CORE.csproj.AssemblyReference.cache
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\obj\Debug\net6.0\EsercitazioneWeek7.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\obj\Debug\net6.0\EsercitazioneWeek7.CORE.AssemblyInfoInputs.cache
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\obj\Debug\net6.0\EsercitazioneWeek7.CORE.AssemblyInfo.cs
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\obj\Debug\net6.0\EsercitazioneWeek7.CORE.csproj.CoreCompileInputs.cache
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\obj\Debug\net6.0\EsercitazioneWeek7.CORE.dll
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\obj\Debug\net6.0\refint\EsercitazioneWeek7.CORE.dll
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\obj\Debug\net6.0\EsercitazioneWeek7.CORE.pdb
+C:\Users\gianluca.deias\source\repos\EsercitazioneWeek7\EsercitazioneWeek7.CORE\obj\Debug\net6.0\ref\EsercitazioneWeek7.CORE.dll
