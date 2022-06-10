@@ -18,8 +18,8 @@ builder.Services.AddScoped<IRepositoryUtenti, RepositoryUtentiEF>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(option =>
     {
-        option.LoginPath = new Microsoft.AspNetCore.Http.PathString("/");
-        option.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Forbidden");
+        option.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Utenti/Login");
+        option.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Utenti/Forbidden");
     }
     );
 

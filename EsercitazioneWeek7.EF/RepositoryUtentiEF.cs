@@ -30,6 +30,18 @@ namespace EsercitazioneWeek7.EF
             throw new NotImplementedException();
         }
 
+        public Utente GetByUsername(string username)
+        {
+            using (var ctx = new MasterContext())
+            {
+                if (string.IsNullOrEmpty(username))
+                {
+                    return null;
+                }
+                return ctx.Utenti.FirstOrDefault(u => u.Username == username);
+            }
+        }
+
         public Utente Update(Utente item)
         {
             throw new NotImplementedException();

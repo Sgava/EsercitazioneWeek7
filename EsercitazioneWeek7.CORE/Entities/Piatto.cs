@@ -9,9 +9,9 @@ namespace EsercitazioneWeek7.CORE.Entities
     public enum Tipologia 
     {
         primo=0,
-        secondo,
-        contorno,
-        Dolce
+        secondo=1,
+        contorno=2,
+        Dolce=3
     }
 
     public class Piatto

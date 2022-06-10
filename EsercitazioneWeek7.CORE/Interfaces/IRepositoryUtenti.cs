@@ -9,5 +9,6 @@ namespace EsercitazioneWeek7.CORE.Interfaces
 {
     public interface IRepositoryUtenti : IRepository<Utente>
     {
+        Utente GetByUsername(string username);
     }
 }

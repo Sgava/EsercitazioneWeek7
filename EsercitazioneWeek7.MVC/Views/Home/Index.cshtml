@@ -1,38 +1,19 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@model UtenteViewModel
+
 
 <div class="text-center">
     <h1 class="display-4">Welcome to the Restaurant</h1>
 
-    @*</div>
-    <div>*@
-    <form class="" method="post">
 
-        <input type="hidden" asp-for="ReturnUrl" />
-        <div class="row">
-            <div class="form-group col-6 text-center">
-                <label asp-for="Username"></label>
-                <input asp-for="Username" class="form-control" />
-                <span asp-validation-for="Username" class="text-danger"></span>
-            </div>
+
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <div class="text-center ">            
+            <a class="btn btn-light btn-outline-dark rounded text-center mt-3" asp-controller="Utenti" asp-action="Login">LogIn</a>
         </div>
-        <div class="row">
-            <div class="form-group col-6 text-center">
-                <label asp-for="Password"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-        </div>
-
-
-
-        <div class="text-center ">
-            <input type="submit" value="Login" class="btn btn-primary mt-3" />
-            <a class="btn btn-light btn-outline-dark rounded text-center mt-3" asp-controller="Utenti" asp-action="Create">Registrati</a>
-        </div>
-    </form>
+    }
 </div>
 
 

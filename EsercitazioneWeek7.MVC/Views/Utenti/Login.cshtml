@@ -1,0 +1,27 @@
+﻿@model UtenteViewModel
+
+<form class="" method="post">
+
+        <input type="hidden" asp-for="ReturnUrl" />
+        <div class="row">
+            <div class="form-group col-6 text-center">
+                <label asp-for="Username"></label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-6 text-center">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+        </div>
+
+
+
+        <div class="text-center ">
+            <input type="submit" value="Login" class="btn btn-primary mt-3" />
+            <a class="btn btn-light btn-outline-dark rounded text-center mt-3" asp-controller="Utenti" asp-action="Create">Registrati</a>
+        </div>
+    </form>

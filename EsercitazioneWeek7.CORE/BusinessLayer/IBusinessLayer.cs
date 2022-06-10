@@ -25,6 +25,7 @@ namespace EsercitazioneWeek7.CORE.BusinessLayer
         Esito AggiungiMenu(Menu menu);
         Esito AssegnaPiattoAlMenu(int idPiatto, int idMenu);
         Esito TogliPiattoDalMenu(int idPiatto);
+        Utente GetAccount(string username);
 
 
     }

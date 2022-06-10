@@ -65,6 +65,15 @@ namespace EsercitazioneWeek7.CORE.BusinessLayer
             return new Esito() { IsOk = true, Messaggio = "Piatto eliminato correttamente" };
         }
 
+        public Utente GetAccount(string username)
+        {
+            if (string.IsNullOrEmpty(username))
+            {
+                return null;
+            }
+            return utentiRepo.GetByUsername(username);
+        }
+
         public List<Menu> GetAllMenus()
         {
             return menuRepo.GetAll();
