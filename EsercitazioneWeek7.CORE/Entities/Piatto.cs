@@ -22,6 +22,7 @@ namespace EsercitazioneWeek7.CORE.Entities
         public Tipologia tipologia { get; set; }
         public decimal Prezzo { get; set; }
  
+        public int MenuId { get; set; }
         public Menu? Menu { get; set; }
     }
 }

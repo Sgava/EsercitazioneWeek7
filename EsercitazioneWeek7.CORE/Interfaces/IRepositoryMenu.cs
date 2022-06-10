@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EsercitazioneWeek7.CORE.Interfaces
 {
-    internal interface IRepositoryMenu : IRepository<Menu>
+    public interface IRepositoryMenu : IRepository<Menu>
     {
     }
 }
